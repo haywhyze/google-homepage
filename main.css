@@ -1,0 +1,186 @@
+
+
+#navigation
+{
+	float: right;
+	width: 100%;
+	padding: 0;
+
+}
+
+body {
+	margin: 0;
+}
+
+#container
+{
+	padding: 0 30px 0 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation ul
+{
+	float:right;
+	margin-bottom: 130px;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+	font-size: 12.5px;
+	margin: -10px 0 0 10px;
+	line-height: 24px;
+
+}
+
+ li a
+{
+	color: black;
+	text-decoration: none;
+}
+
+ li a:hover {
+	text-decoration: none;
+	opacity: 1.0;
+ }
+
+
+ #footer li a:hover {
+	text-decoration: underline;
+	opacity: 1.0;
+ }
+ 
+ 
+.round {
+	border-radius: 100%;
+	margin-left: 15px
+}
+
+img {
+	opacity: 0.5;
+}
+
+img:hover {
+	opacity: 1.0;
+}
+
+#logo
+{	
+   margin: 30px auto;
+	background-image: url(google.png);
+	background-repeat: no-repeat;
+	height: 95px;
+	width: 269px;
+	background-size:269px 95px;
+	opacity: 0.8;
+	clear: both;
+
+}
+
+#search{
+
+	height: 27px;
+	width: 510px;
+
+	margin: auto;
+	}
+
+input{
+	height: 27px;
+	width: 510px;
+	border: 1px solid #222
+	opacity: 0.5;
+
+}
+
+input:hover{
+		border: 1px solid #222;
+		opacity: 0.7;
+}
+
+input:focus{
+		border: 1px solid blue;
+}
+	form {
+	 margin: 0 auto;
+	 width: 500px;
+	 
+}
+#submit {
+	margin: 20px auto 50px auto;
+	width: 270px;
+}
+#lucky:hover, #google:hover{
+	box-shadow: 1px 1px 5px #888888;
+    border: 1px solid #888;
+    color: #222222;
+}
+
+#lucky {
+	background: #f5f5f5;
+	color: #444;
+	font: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 29px;
+	width: 130px;
+	border: 1px solid #dcdcdc;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 0 8px;
+	text-align: center;
+	margin-left: 8px;
+}
+
+#google {
+	background: #f5f5f5;
+	color: #444;
+	font: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 29px;
+	width: 117px;
+	border: 1px solid #dcdcdc;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 0 8px;
+	text-align: center;
+	margin-right: 8px;
+}
+
+a img:hover{
+	text-decoration: none;
+}
+
+p{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+p a{
+	text-decoration: none;
+}
+.navi{
+		width: 100%;
+		font-size: small;
+		
+}	
+.navi ul li{	
+	
+	list-style-type: none;
+	display: inline;
+	font-size: 12.5px;
+	margin: -10px 30px 0 0;
+	line-height: 24px;
+   vertical-align: middle;
+}
+#footer {
+
+	height: 40px;
+	width: 100%;
+	background-color: #dcdcdc;
+	position: fixed;
+	bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 0.8;
+	border-top: 1px solid #bdbdbd;
+}
